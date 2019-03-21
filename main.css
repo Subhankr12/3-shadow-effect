@@ -1,0 +1,14 @@
+div {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  margin: 200px;
+  margin-left: 600px;
+  transition-duration: 1s;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.616);
+}
+
+div:hover {
+  transform: translateX(-3px);
+  box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.377);
+}
